@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        rel="stylesheet">
+    <title>Рецепти</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="">
+        <nav>
+            <a href="#hot">Гарячі страви</a>
+            <a href="#salads">Салати</a>
+            <a href="">Закуски</a>
+            <a href="">М'ясо</a>
+            <a href="">Напої</a>
+        </nav>
+        <form class="search" action="">
+            <input class="search_input" type="text" placeholder="Пошук рецепту">
+            <button class="search_button">Знайти</button>
+        </form>
+    </header>
+    <main>
+        <section id="about" class="about">
+            <div class="about_text">
+                <h1 class="about_title">Що ви тут знайдете:</h1>
+                <p class="about_text">
+                    <ul class="about_list">
+                        <li class="about_item">Широкий спектр рецептів на будь-який смак і випадок. Ми пропонуємо рецепти з різних кухонь світу, а також
+                        вегетаріанські, веганські, безглютенові та інші рецепти для людей з особливими харчовими потребами.</li>
+                        <li class="about_item">Прості та зрозумілі інструкції з чіткими фотографіями, які допоможуть вам приготувати будь-яку страву без проблем</li>
+                        <li class="about_item">Корисні поради та підказки від досвідчених кухарів, які допоможуть вам вдосконалити свої кулінарні навички</li>
+                        <li class="about_item">Можливість поділитися своїми власними рецептами та відгуками з іншими користувачами</li>
+                    </ul>
+                </p>
+
+            </div>
+            <div class="about_text">
+                <h1 class="about_title">Наш сайт - це ідеальне місце для</h1>
+                <p class="about_text">
+                    <ul class="about_list">
+                        <li class="about_item">Початківців кухарів, які хочуть навчитися готувати смачні та прості страви</li>
+                        <li class="about_item">Досвідчених кухарів, які шукають нові та цікаві рецепти</li>
+                        <li class="about_item">Людей з обмеженим бюджетом, які хочуть їсти здорову та смачну їжу, не витрачаючи багато грошей</li>
+                        <li class="about_item">Сімей, які шукають рецепти, які сподобаються всім</li>
+                    </ul>
+                </p>
+
+            </div>
+        </section>
+        <section class="recipes" id="recipes">
+            <h1 class="recipes_title">
+                Рецепти
+            </h1>
+            <h2 class="recipes_subtitle" id="hot">Гарячі страви</h2>
+            <div class="recipes_main">
+                <div class="recipes_recipe">
+                    <img class="recipes_image" src="img/cotlety.jpg" alt="">
+                    <p class="recipe_name">Курячі котлети з сиром та грибами</p>
+                    <p class="recipe_time">
+                        Час приготування: 40 хвилин
+                    </p>
+                    <button class="recipe_button cotlety">Детальніше</button>
+                </div>
+                <div class="recipes_recipe">
+                    <img class="recipes_image" src="img/ryba.jpg" alt="">
+                    <p class="recipe_name">Риба, запечена з овочами</p>
+                    <p class="recipe_time">
+                        Час приготування: 30 хвилин
+                    </p>
+                    <button class="recipe_button ryba">Детальніше</button>
+                </div>
+                
+            </div>
+            <h2 class="recipes_subtitle" id="salads">Салати</h2>
+            <div class="recipes_main">
+                <div class="recipes_recipe">
+                    <img class="recipes_image" src="img/tyna.jpg" alt="">
+                    <p class="recipe_name">Салат з тунцем та квасолею</p>
+                    <p class="recipe_time">
+                        Час приготування: 15 хвилин
+                    </p>
+                    <button class="recipe_button tynec">Детальніше</button>
+                </div>
+                <div class="recipes_recipe">
+                    <img class="recipes_image" src="img/ryrka.jpg" alt="">
+                    <p class="recipe_name">Салат з куркою та грибами</p>
+                    <p class="recipe_time">
+                        Час приготування: 20 хвилин
+                    </p>
+                    <button class="recipe_button kyrka">Детальніше</button>
+                </div>
+                
+            </div>
+
+
+            <h2 class="recipes_subtitle" id="salads">Закуски</h2>
+            <div class="recipes_main">
+                <div class="recipes_recipe">
+                    <img class="recipes_image" src="img/potato.jpeg" alt="">
+                    <p class="recipe_name">Картопля по селянські</p>
+                    <p class="recipe_time">
+                        Час приготування: 30 хвилин
+                    </p>
+                    <button class="recipe_button potato">Детальніше</button>
+                </div>
+                <div class="recipes_recipe">
+                    <img class="recipes_image" src="img/kaprese.jpg" alt="">
+                    <p class="recipe_name">Капрезе</p>
+                    <p class="recipe_time">
+                        Час приготування: 15 хвилин
+                    </p>
+                    <button class="recipe_button kaprese">Детальніше</button>
+                </div>
+                
+            </div>
+            <div class="info">
+                <img class="close" src="img/close.png" alt="">
+            
+            </div>
+        </section>
+        <section class="reviews" id="reviews">
+            <h1 class="reviews_title">Відгуки</h1>
+            <div class="reviews_cnt">
+                <div class="review">
+                    <span class="reviewer">Іван Петренко</span>
+                    <p class="review_text">Цей сайт просто чудовий! Знайшов тут багато цікавих рецептів, які вже встиг приготувати і всім дуже сподобалися.
+                    Особливо дякую за рецепт котлет з сиром та грибами - це просто бомба! Буду й надалі користуватися цим сайтом і
+                    рекомендувати його друзям</p>
+                </div>
+                <div class="review">
+                    <span class="reviewer">Олена Сидоренко</span>
+                    <p class="review_text">Дуже зручний сайт з рецептами! Все чітко, зрозуміло, з фотографіями. А головне - все дуже смачно! Дякую авторам за їхню
+                    працю</p>
+                </div>
+                <div class="review">
+                    <span class="reviewer">Сергій Коваленко</span>
+                    <p class="review_text">Нарешті знайшов сайт з рецептами, де все просто і зрозуміло. Не треба витрачати час на пошук інгредієнтів, адже тут все
+                    розписано покроково. А ще тут дуже смачно! Рекомендую</p>
+                </div>
+                <div class="review">
+                    <span class="reviewer">Ольга Ткаченко</span>
+                    <p class="review_text">Цей сайт став моїм порятунком! Я не дуже люблю готувати, але завдяки цьому сайту я навчилася готувати багато смачних
+                    страв. Дякую авторам за чудові рецепти та поради</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img class="logo" src="img/logo.png" alt="">
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#main">Головна</a></li>
+                    <li><a href="#recipes">Рецепти</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 [Назва сайту]. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
